@@ -1,0 +1,28 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .b1{
+        margin-top: 5px;
+        width: 300px;
+      
+    }
+
+    .b2{
+        margin-top: 5px;
+        width: 300px;
+      
+    }
+
+    .queen-brand{
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}

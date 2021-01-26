@@ -1,0 +1,119 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+}
+
+/*Elementos base*/
+
+body{
+    background-color: var(--preto);
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo{
+    height: 50px;
+    margin-left: -10px;
+}
+
+.container{
+    margin-left: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: medium;
+    align-items: center;
+}
+
+header nav a:hover{
+    color:#aaaaaa;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+}
+
+/*filme principal*/
+
+.filme-principal{
+font-size: 16px;
+background: linear-gradient(to bottom, black, transparent, black), url('../img/the-queens-gambit-cover.jpg');
+height: 520px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.descricao{
+margin-bottom: 40px;
+}
+
+.b1{
+    height: 42px;
+    width: 110px;
+    color: black;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.b2{
+    height: 42px;
+    width: 150px;
+    color: black;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, .25);
+    cursor: pointer;
+}
+
+.b2 :hover{
+    background-color: rgba(255, 255, 255, .10);
+}
+
+.b1 :hover{
+    background-color: rgba(255, 255, 255, .50);
+}
+
+/*Conteúdo*/
+
+.movies-carousel{
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.box-filmes{
+    height: 145px;
+    width: 245px;
+    display: block;
+}
+
+.trending{
+    height: 245px;
+    width: 490px;
+    display: block;
+}
+
+.queen-brand{
+    height: 100px;
+}
