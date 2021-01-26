@@ -1,35 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
-  <title>Netflix</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
+    <title>Netflix</title>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <img src="../img/netflix-marca.png" class="brand">
-      <nav>
-        <a href="#">Início</a>
-        <a href="#">Séries</a>
-        <a href="#">Filmes</a>
-        <a href="#">Bombando</a>
-        <a href="#">Minha Lista</a>
-      </nav>
-      <div>
-         <nav class="icomenu">
-          <a href="#"><img src="../img/search-white-24dp.svg"></a>
-          <a href="#"><img src="../img/notifications-white-24dp.svg"></a>
-          <a href="#"><img src="../img/face-user.png"></a>
-        </nav>
-      </div>
-     </div>
-  </header>
-  
-  <main>
+    
+    <header>
+        <div class="container">
+            <img alt="Netflix Brand" class="logo" src="/img/netflix-marca.png">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">New & Popular</a>
+                <a href="#">My List</a>
+                <a href="#"><img src="img/search-white.svg" alt="" style="height: 24px; margin-left: 525px;"></a>
+                <a href="#"><img src="img/redeem-white-18dp.svg" alt="" style="height: 24px;"></a>
+                <a href="#"><img src="img/notifications-white-18dp.svg" alt="" style="height: 24px;"></a>
+                <a href="#"><img src="img/face-user.png" alt="" style="height: 24px; margin-right: 50px;"></a>
+            </nav>
+        </div>
+    </header>
+<main>
+    <div class="filme-principal">
+        <div class="container">
+            <img src="img/queens-gambit-brand.png" alt="Queen's Gambit Title" class="queen-brand">
+            <p class="calltoaction">Watch season 1 now </p>
+                <br>
+                <p class="descricao">In a Kentucky orphanage in the 1950s, <br>
+                a young girl discovers an astonishing talent for chess,<br>
+                while struggling with addiction. </p>
+                <button role="button" class="b1">
+                    <i class="fas fa-play"></i>
+                    <img src="img/play_arrow-24px.svg">
+                    Play
+                </button>
+                <button role="button" class="b2">
+                    <img src="img/info-24px.svg">
+                    More Info
+                </button>
+        </div>
+    </div>
+</main>
 
-  </main>
+<div class="owl-carousel owl-theme"></div>
+
+<div class="movies-carousel">
+    <p style="margin-bottom: 15px;">My List</p>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="box-filmes" src="img/mini-001.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-filmes" src="img/mini-002.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-filmes" src="img/mini-003.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-filmes" src="img/mini-004.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-filmes" src="img/mini-005.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-filmes" src="img/mini-006.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-filmes" src="img/mini-007.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-filmes" src="img/mini-008.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-filmes" src="img/mini-009.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-filmes" src="img/mini-010.png" alt="" srcset="">
+        </div>
+    </div>
+</div>
+            
+    
+<div class="movies-carousel">
+    <p style="margin-bottom: 15px;">Netflix Originals</p>
+    <div class="owl-carousel owl-theme">
+    <div class="item">
+        <img class="box-filmes" src="img/mini-017.png" alt="" srcset="">
+    </div>
+    <div class="item">
+        <img class="box-filmes" src="img/mini-035.png" alt="" srcset="">
+    </div>
+    <div class="item">
+        <img class="box-filmes" src="img/mini-036.png" alt="" srcset="">
+    </div>
+    <div class="item">
+        <img class="box-filmes" src="img/mini-011.png" alt="" srcset="">
+    </div>
+    <div class="item">
+        <img class="box-filmes" src="img/mini-008.png" alt="" srcset="">
+    </div>
+    <div class="item">
+        <img class="box-filmes" src="img/mini-031.png" alt="" srcset="">
+    </div>
+    <div class="item">
+        <img class="box-filmes" src="img/mini-026.png" alt="" srcset="">
+    </div>
+    <div class="item">
+        <img class="box-filmes" src="img/mini-023.png" alt="" srcset="">
+    </div></div>
+</div>
+
+<div class="movies-carousel">
+    <p style="margin-bottom: 15px;">Trending Now</p>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="img/top001.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img src="img/top002.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img src="img/top003.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img src="img/top004.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img src="img/top005.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img src="img/top006.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img src="img/top007.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img src="img/top008.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img src="img/top009.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img src="img/top010.png" alt="" srcset="">
+        </div>
+    </div>
+</div>
+
+<div class="movies-carousel">
+    <p style="margin-bottom: 15px;">Watch it Now</p>
+</div>
+
+<div class="movies-carousel">
+    <p style="margin-bottom: 15px;">Top 10 in Brazil Today</p>
+</div>
+
+<div class="movies-carousel">
+    <p style="margin-bottom: 15px;">New Releases</p>
+</div>
+
+</div>
+
+<script src="js/owl-carousel/jquery.min.js"></script>
+<script src="js/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/owl-carousel/setup.js"></script>
+
 </body>
 </html>
